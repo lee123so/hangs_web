@@ -1,0 +1,60 @@
+
+// 색상
+$white: #fff;
+$black: #191919;
+$navy: #555E75;
+$pink: #F7DFDA;
+$gray: #cccccc;
+$light_gray: #DEDEDE;
+$middle_gray:#999999;
+$dark_gray: #666666;
+$background_gray: #F3F3F3;
+$primary:#3D516F;
+
+
+// 폰트 스타일
+$font-family-1 : "Pretendard Std Variable", "Pretendard Std", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+
+// 폰트 크기
+$font-size-0_75 : 0.75rem;
+$font-size-1 : 1rem;
+$font-size-1_25 : 1rem;
+$font-size-1_5 : 1.5rem;
+$font-size-2 : 2rem;
+$font-size-2_5 : 2.5rem;
+$font-size-3 : 3rem;
+
+// 폰트 두께
+$bold : 900;
+$medium : 700;
+$regular : 500;
+$thin : 400;
+
+//믹스인
+@mixin title($font){
+  font-size: 30px;
+  line-height: $font;
+}
+@mixin sub_title($font){
+  font-size: 20px;
+  line-height: $font;
+}
+@mixin form_wrap(){
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  justify-content: space-between;
+}
+@mixin form_submit(){
+  margin-bottom: 2rem;
+  align-items: flex-start;
+  display: flex;
+
+  //padding: 3rem;
+  //flex-direction: column;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: space-between;
+}

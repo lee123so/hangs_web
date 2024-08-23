@@ -1,0 +1,62 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-hangweb-dev-102838-authRole",
+      "UnauthRoleArn": "arn:aws:iam::122065641830:role/amplify-hangweb-dev-102838-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::122065641830:role/amplify-hangweb-dev-102838-authRole",
+      "Region": "ap-northeast-2",
+      "DeploymentBucketName": "amplify-hangweb-dev-102838-deployment",
+      "UnauthRoleName": "amplify-hangweb-dev-102838-unauthRole",
+      "StackName": "amplify-hangweb-dev-102838",
+      "StackId": "arn:aws:cloudformation:ap-northeast-2:122065641830:stack/amplify-hangweb-dev-102838/3bf67190-371d-11ee-aa70-02a11200ba60",
+      "AmplifyAppId": "d24wpspl5h0qe8"
+    }
+  },
+  "auth": {
+    "hangweb9e3428e3": {
+      "service": "Cognito",
+      "serviceType": "imported",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "output": {
+        "UserPoolId": "ap-northeast-2_Mgh18u850",
+        "UserPoolName": "hangsappadminc241a4a5_userpool_c241a4a5-dev",
+        "AppClientID": "1ksgpkjigkpfbqi77dd8v0ne2f",
+        "AppClientIDWeb": "4rjb9b2r4mmo54r4b3e7jn1j9a",
+        "IdentityPoolId": "ap-northeast-2:8b8ae5c1-74de-41b5-8504-0fcc886f8fe1",
+        "IdentityPoolName": "hangsappadminc241a4a5_identitypool_c241a4a5__dev"
+      },
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "lastPushTimeStamp": "2023-08-11T00:31:36.262Z"
+    }
+  },
+  "storage": {
+    "hangweb94bfb1e7": {
+      "service": "S3",
+      "serviceType": "imported",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "output": {
+        "BucketName": "hangs-admin172250-dev",
+        "Region": "ap-northeast-2"
+      },
+      "lastPushTimeStamp": "2023-08-11T00:31:36.262Z"
+    }
+  }
+}

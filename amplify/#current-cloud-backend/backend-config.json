@@ -1,0 +1,125 @@
+{
+  "auth": {
+    "hangweb9e3428e3": {
+      "customAuth": false,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "serviceType": "imported"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_auth_hangweb9e3428e3_allowUnauthenticatedIdentities": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "hangweb9e3428e3"
+        }
+      ]
+    },
+    "AMPLIFY_auth_hangweb9e3428e3_authRoleArn": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "hangweb9e3428e3"
+        }
+      ]
+    },
+    "AMPLIFY_auth_hangweb9e3428e3_authRoleName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "hangweb9e3428e3"
+        }
+      ]
+    },
+    "AMPLIFY_auth_hangweb9e3428e3_identityPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "hangweb9e3428e3"
+        }
+      ]
+    },
+    "AMPLIFY_auth_hangweb9e3428e3_identityPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "hangweb9e3428e3"
+        }
+      ]
+    },
+    "AMPLIFY_auth_hangweb9e3428e3_nativeClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "hangweb9e3428e3"
+        }
+      ]
+    },
+    "AMPLIFY_auth_hangweb9e3428e3_unauthRoleArn": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "hangweb9e3428e3"
+        }
+      ]
+    },
+    "AMPLIFY_auth_hangweb9e3428e3_unauthRoleName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "hangweb9e3428e3"
+        }
+      ]
+    },
+    "AMPLIFY_auth_hangweb9e3428e3_userPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "hangweb9e3428e3"
+        }
+      ]
+    },
+    "AMPLIFY_auth_hangweb9e3428e3_userPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "hangweb9e3428e3"
+        }
+      ]
+    },
+    "AMPLIFY_auth_hangweb9e3428e3_webClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "hangweb9e3428e3"
+        }
+      ]
+    },
+    "AMPLIFY_storage_hangweb94bfb1e7_bucketName": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "hangweb94bfb1e7"
+        }
+      ]
+    },
+    "AMPLIFY_storage_hangweb94bfb1e7_region": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "hangweb94bfb1e7"
+        }
+      ]
+    }
+  },
+  "storage": {
+    "hangweb94bfb1e7": {
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "S3",
+      "serviceType": "imported"
+    }
+  }
+}
